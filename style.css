@@ -78,13 +78,6 @@ section h2 {
     margin: 1em 0;
     padding: 1em;
     border-radius: 5px;
-    text-align: center;
-}
-
-.services .service img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
 }
 
 .contact form {
