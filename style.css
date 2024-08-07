@@ -59,7 +59,6 @@ nav ul li a {
 }
 
 .hero {
-    background: none; /* Remove o fundo da imagem */
     color: #000000; /* Ajuste a cor do texto para contraste */
     padding: 5em 0;
     text-align: center;
