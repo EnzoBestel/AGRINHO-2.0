@@ -16,27 +16,21 @@ body {
     margin: auto;
 }
 
-#menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    color: #fff;
-    font-size: 1.5em;
-
 header {
     background: #333;
     color: #fff;
     padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    text-align: center;
     margin-bottom: 0.5em;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
     list-style: none;
 }
 
@@ -49,8 +43,17 @@ nav ul li a {
     text-decoration: none;
 }
 
+#menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
 .hero {
-    color: #000000;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    color: #fff;
     padding: 5em 0;
     text-align: center;
 }
@@ -128,4 +131,24 @@ footer {
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul li {
+        margin: 1em 0;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
 }
