@@ -59,11 +59,10 @@ nav ul li a {
 }
 
 .hero {
-    color: #fff;
-    paddingrgb(0, 0, 0)m 0;
+    color: #000000;
+    padding: 5em 0;
     text-align: center;
 }
-
 .hero .btn {
     background: #ff5733;
     color: #fff;
