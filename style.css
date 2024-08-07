@@ -60,7 +60,7 @@ nav ul li a {
 
 .hero {
     background: none; /* Remove o fundo da imagem */
-    color: #000; /* Define a cor do texto como preto */
+    color: #000 !important; /* Define a cor do texto como preto e usa !important para garantir a aplicação */
     padding: 5em 0;
     text-align: center;
 }
