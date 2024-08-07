@@ -59,10 +59,16 @@ nav ul li a {
 }
 
 .hero {
-    color: #000000;
+    background: none; /* Remove o fundo da imagem */
+    color: #333; /* Ajuste a cor do texto para contraste */
     padding: 5em 0;
     text-align: center;
 }
+
+.hero h2 {
+    margin-bottom: 1em;
+}
+
 .hero .btn {
     background: #ff5733;
     color: #fff;
