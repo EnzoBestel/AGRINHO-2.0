@@ -59,7 +59,8 @@ nav ul li a {
 }
 
 .hero {
-    color: #000000;
+    background: none; /* Remove o fundo da imagem */
+    color: #000; /* Define a cor do texto como preto */
     padding: 5em 0;
     text-align: center;
 }
@@ -70,7 +71,7 @@ nav ul li a {
 
 .hero .btn {
     background: #ff5733;
-    color: #000000;
+    color: #fff;
     padding: 0.75em 1.5em;
     border: none;
     cursor: pointer;
