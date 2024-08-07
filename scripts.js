@@ -1,4 +1,10 @@
-document.getElementById('menu-toggle').addEventListener('click', function() {
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menu-toggle');
     const navList = document.getElementById('nav-list');
-    navList.classList.toggle('show');
+
+    if (menuToggle && navList) {
+        menuToggle.addEventListener('click', function() {
+            navList.classList.toggle('show');
+        });
+    }
 });
